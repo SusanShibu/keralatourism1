@@ -1,0 +1,61 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-size:contain;  
+    background-image: url("background3.jpg");
+}
+
+header{
+    background-color: rgba(0,0,0,0.7);
+    height: 7em;
+}
+#logo{
+    max-width: 90px;
+    margin-left: 3%;
+    margin-top: 20px;
+}
+
+
+
+.head-tag{
+    float:right;
+    margin-top: 25px;
+    margin-right: 50px;
+    
+    }
+
+.anchor{
+    float: right;
+    margin-top: 25px;
+}
+
+.head-tag a{
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    border: 1px solid white;
+    padding: 8px;
+    margin-right: 8px;
+    margin-top: 0%;
+    
+    
+}
+.head-tag a:hover{
+    background-color:white;
+    color: black;
+    transition: 0.2s ease-in-out;
+} 
+
+.head-tag h3{
+    /* margin-top: 1px;
+    margin-right: 17em; */
+    margin-left: 40%;
+    font-size: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    
+}
+
